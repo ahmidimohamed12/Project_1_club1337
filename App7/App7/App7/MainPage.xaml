@@ -6,9 +6,18 @@
              mc:Ignorable="d"
              BackgroundColor="Black"
              x:Class="App7.MainPage">
+    <StackLayout>
 
-    <StackLayout  Orientation="Vertical"  VerticalOptions="CenterAndExpand">
+        <Label
+            Text="1337"
+            HorizontalOptions="CenterAndExpand"
+            FontAttributes="Bold"
+            TextColor="White"
+            FontSize="38"
+            />
+        <StackLayout  Orientation="Vertical"  VerticalOptions="CenterAndExpand">
         <!-- Place new controls here -->
+      
         <Label
             Text="Nomber 1"
             HorizontalOptions="CenterAndExpand"
@@ -70,5 +79,5 @@
             FontSize="25"
             />
     </StackLayout>
-
+    </StackLayout>
 </ContentPage>
