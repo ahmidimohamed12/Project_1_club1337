@@ -16,6 +16,34 @@ namespace App7
         public MainPage()
         {
             InitializeComponent();
+            btnsm.Clicked += somme;
+            btnsus.Clicked += sust;
+            btnmul.Clicked += mul;
+        }
+        private void mul(object sender,EventArgs e)
+        {
+            int nb1 = int.Parse(txtnb1.Text);
+            int nb2 = int.Parse(txtnb2.Text);
+
+            int res = nb1 * nb2;
+            txtres.Text = res.ToString();
+        }
+        private void somme(object sender,EventArgs e)
+        {
+            int nb1 = int.Parse(txtnb1.Text);
+            int nb2 = int.Parse(txtnb2.Text);
+
+            int res = nb1 + nb2;
+            txtres.Text = res.ToString();
+        }
+        
+        private void sust(object sender,EventArgs e)
+        {
+            int nb1 = int.Parse(txtnb1.Text);
+            int nb2 = int.Parse(txtnb2.Text);
+
+            int res = nb1 - nb2;
+            txtres.Text = res.ToString();
         }
     }
 }

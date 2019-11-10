@@ -43,19 +43,21 @@
                     BackgroundColor="White"
                     TextColor="Black"
                     HorizontalOptions="Start"
+                    x:Name="btnsm"
                     />
             <Button 
                  Text="sus"
                     BackgroundColor="White"
                     TextColor="Black"
                     HorizontalOptions="Center"
+                    x:Name="btnsus"
                 />
             <Button
                  Text="mul"
                     BackgroundColor="White"
                     TextColor="Black"
                     HorizontalOptions="End"
-                
+                    x:Name="btnmul"
                 />
         </StackLayout>
         <Label
@@ -63,7 +65,7 @@
             Text="Result"
             FontAttributes="Bold"
             HorizontalOptions="CenterAndExpand"
-            x:Name="res"
+            x:Name="txtres"
             TextColor="White"
             FontSize="25"
             />
